@@ -239,14 +239,14 @@
     ],
     "completed": {
       "creation": true,
-      "modification": false,
-      "finalized": false,
-      "published": false,
+      "modification": true,
+      "finalized": true,
+      "published": true,
       "delivered": false,
       "domain-assigned": false,
       "live": false
     },
-    "activeStage": "modification"
+    "activeStage": "delivered"
   },
   "theme": {
     "name": "Restauração",
@@ -254,11 +254,12 @@
     "secondary": "#ea580c",
     "accent": "#facc15",
     "dark": "#2b160b",
-    "heroOverlay": "rgba(70, 23, 7, 0.58)"
+    "heroOverlay": "rgba(70, 23, 7, 0.58)",
+    "mode": "neutral"
   },
   "createdAt": "2026-06-06T10:32:35+00:00",
   "slug": "cafe-costa",
-  "updatedAt": "2026-06-06T14:39:27+00:00",
+  "updatedAt": "2026-06-27T08:50:58+00:00",
   "editor": {
     "webSearch": {
       "query": "Café Costa",
@@ -332,6 +333,18 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=maps.google.com&sz=128",
         "imageQuery": "Café Costa Praça Machado dos Santos 149, 4440-452 Valongo, Portugal Café Costa"
       }
+    }
+  },
+  "publishing": {
+    "githubPages": {
+      "provider": "github-pages",
+      "owner": "BaguettiBoy",
+      "repo": "cafe-costa",
+      "branch": "main",
+      "public": true,
+      "url": "https://baguettiboy.github.io/cafe-costa/",
+      "commit": "0b16612d9f879c64bc9fe514f2779501189df4f2",
+      "publishedAt": "2026-06-06T15:40:21+01:00"
     }
   }
 }
